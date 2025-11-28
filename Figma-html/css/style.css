@@ -1,0 +1,197 @@
+body {
+    background-color: #80DEEA;
+    margin: 0; 
+    font-family: Arial;
+}
+
+header {
+    background-color: #ffffff;
+    align-items: center;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+header ul{
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 135px;
+    border-radius: 8px; 
+}
+
+header li{
+    margin: 0;
+    border-radius: 8px; 
+}
+
+header a{
+    text-decoration: none; 
+    color: #ffffff;
+    font-weight: bold;
+    background-color:#126367 ;
+    border-radius: 8px;
+    padding: 10px 20px; 
+}
+
+header img{
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover {
+    background-color: #5ECFDE;
+    color: #ffffff;
+}
+
+body h1{
+    font-size: 30px;
+    color: #464A4B;
+    text-align: center;
+}
+
+body h1{
+    font-size: 30px;
+    color: #464A4B;
+    text-align: center;
+}
+.sobre {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 50px; 
+    margin: 50px auto; 
+    max-width: 1000px; 
+    flex-wrap: wrap;
+}
+.textoSobre {
+    flex: 1; 
+    font-family: Arial;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.textoSobre h1{
+    text-align: left;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.tetxtoSobre img{
+    max-width: 100%;
+    height: auto;
+}
+.imagens {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 15px;
+    padding: 30px 15px;
+    max-width: 1400px; 
+    min-width: 1100px;
+    margin: 30px auto 50px auto;
+}
+
+.imagens figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 200px; 
+    max-width: 200px; 
+    flex-grow: 0; 
+    flex-shrink: 0; 
+    margin: 0;
+    background-color: #359699; 
+    border-radius: 5px;;
+}
+
+.imagens figure img {
+    height: 200px; 
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.imagens figcaption {
+    min-height: 40px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #464A4B;
+}
+.formulario {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 50px;
+    margin: 50px auto;
+    flex-wrap: wrap; 
+    max-width: 1000px; 
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #177074;
+    border-radius: 15px; 
+    padding: 30px;
+    margin: 50px auto; 
+    max-width: 500px; 
+}
+.formulario form label{
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;;
+}
+.formulario img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.formulario h1{
+    color: #ffffff;
+}
+#nome, #email, #mensagem {
+    color: #ffffff;
+    background-color: #68bfc4;
+    font-family: Arial;
+}
+#Enviar {
+    color:#177074;
+    background-color: #ffffff;
+    font-family: Arial;
+    border-radius: 5px;
+}
+#Enviar:hover {
+    background-color: #5ECFDE;
+    color: #ffffff;
+}
+
+
+footer {
+    background-color: #359699;
+    color: #ffffff;
+    text-align: center; 
+    padding: 30px 20px; 
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    margin-top: 50px;
+}
+footer p{
+    margin: 0; 
+}
